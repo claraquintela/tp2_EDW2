@@ -28,7 +28,8 @@
   */
 
 html {
-    background-image: linear-gradient(to right top, #9bb5bf, #869ca6, #72838e, #5f6c76, #4c555e, #49515a, #454d56, #424952, #4d5660, #57646f, #62727d, #6d808c);  
+    background: rgb(158,178,196);
+    background: linear-gradient(162deg, rgba(158,178,196,1) 0%, rgba(111,130,148,1) 46%, rgba(76,92,107,1) 100%);
 }
 
 ul{
@@ -53,6 +54,27 @@ li {
     font-family: 'Lalezar-Regular';
   }
 
-  .data-hero{
-    background: url(/assets/img/);
+  h1 {
+    font-size: 4rem;
   }
+
+  h2{
+    font-size: 3rem;
+  }
+
+  h2{
+    font-size: 2rem;
+  }
+
+
+.hero{
+    position: relative;
+    z-index: 1;
+    
+}
+
+.data-titre{
+    position: absolute; 
+    top: 20rem;
+    left: 10rem;
+}
