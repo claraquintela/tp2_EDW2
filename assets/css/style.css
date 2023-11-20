@@ -1,3 +1,58 @@
-font{
-    
+@font-face {
+    font-family: 'MergePro';
+    src: url(/assets/fonts/merge-cufonfonts/MergePro.otf);
+  }
+
+  @font-face {
+    font-family: 'MergeOne-Regular';
+    src: url(/assets/fonts/merge-cufonfonts/MergeOne-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: 'merge_light';
+    src: url(/assets/fonts/merge-cufonfonts/merge_light.otf);
+  }
+
+  @font-face {
+    font-family: 'Lalezar-Regular';
+    src: url(/assets/fonts/merge-cufonfonts/Lalezar-Regular.ttf);
+  }
+
+  /* Colors:
+  Gray blue light: #9BB5BF;
+  Gray blue medium: #6D808C;
+  Gray ash: #4C5059;
+  Gray charchoal: #343840;
+  Gunmetal: #1D1E26;
+  Red: #300C0C;  
+  */
+
+html {
+    background-image: linear-gradient(to right top, #9bb5bf, #869ca6, #72838e, #5f6c76, #4c555e, #49515a, #454d56, #424952, #4d5660, #57646f, #62727d, #6d808c);  
 }
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style: none;
+    padding: 10px;
+    margin: 20px;
+}
+
+li {
+    font-family: 'merge_light';
+    color: #9BB5BF;
+    font-weight: 800;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+
+  h1, h2, h3{
+    font-family: 'Lalezar-Regular';
+  }
+
+  .data-hero{
+    background: url(/assets/img/);
+  }
