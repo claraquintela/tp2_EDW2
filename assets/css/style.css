@@ -168,6 +168,30 @@ footer{
     font-size: 1.5rem;
 }
 
+.gallerie{
+    max-width: 100wv;
+    margin: 0;
+}
+
+.data-gallerie{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;    
+}
+
+.data-gallerie-sub1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.data-gallerie-sub2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
 .linkedin {
     max-width: 4rem;
 }
