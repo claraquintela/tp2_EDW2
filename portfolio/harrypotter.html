@@ -19,16 +19,65 @@
     </header>
 
     <main>
-      <video
-        controls
-        loop
-        poster="assets/img/smoke_hero.jpg"
-        class="video-hero"
-      >
-        <source src="/assets/videos/" type="video/mp4" />
-      </video>
+      <div class="dataportfolio">
+        <video controls loop poster="" class="video-hero portfolio-video">
+          <source
+            src="/assets/videos/harrypotter_voldemort.mp4"
+            type="video/mp4"
+          />
+        </video>
+
+        <div class="portfolio-details">
+          <h2 class="portfolio-titre">
+            Harry Potter and the Deathly Hallows - part 2
+          </h2>
+          <p class="portfolio-resume">
+            This shot was developed using Maya and standard maya particles. I
+            was responsible for the wand magic fx. The fx were done using
+            particles emit from geometry on the wand and then using motion blur
+            and prman render enging I rendered and processed the particles
+            through Nuke to give it a more glowy and magical feel. As a result
+            the shot came out menacing and supernatural.
+          </p>
+        </div>
+      </div>
     </main>
 
-    <aside></aside>
+    <aside class="portfolio-aside">
+      <h3 class="portfolio-aside-titre">You may also be interested:</h3>
+
+      <div class="portfolio-aside-movies">
+        <div class="portfolio-aside-block">
+          <img
+            src="/assets/img/aside_spiderman_2017_1.jpg"
+            class="portfolio-aside-thumb"
+            alt="Spider-Man 2017"
+          />
+          <figcaption class="portfolio-movie-description">
+            Spider-Man (2017)
+          </figcaption>
+        </div>
+        <div class="portfolio-aside-block">
+          <img
+            src="/assets/img/asiede_blackpanther_rhino.jpg"
+            class="portfolio-aside-thumb"
+            alt="Black Panther (2018)"
+          />
+          <figcaption class="portfolio-movie-description">
+            Black Panther (2018)
+          </figcaption>
+        </div>
+        <div class="portfolio-aside-block">
+          <img
+            src="/assets/img/aside_residentevil_2012_2.jpg"
+            class="portfolio-aside-thumb"
+            alt="Resident Evil (2012)"
+          />
+          <figcaption class="portfolio-movie-description">
+            Resident Evil (2012)
+          </figcaption>
+        </div>
+      </div>
+    </aside>
   </body>
 </html>

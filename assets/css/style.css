@@ -96,6 +96,10 @@ img {
 	background-color:#9c0707;
 }
 
+a:visited {
+    background:linear-gradient(to top, #9c0707 5%, #d69595 100%);
+	background-color:#9c0707;
+}
 
 
   h1, h2, h3{
@@ -239,4 +243,58 @@ box-shadow: 0px 0px 13px 0px #000000;
 .dataphoto:hover .soustitre{
     bottom: 0; 
     opacity: 1;
+}
+
+
+.portfolio-details{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    max-width: 58rem;
+    margin: 4rem;
+
+}
+
+.portfolio-titre{
+    
+    color: #9c0707;
+    text-shadow: 1px 1px 1px #1D1E26;
+    padding: 2rem 0 2rem 0;
+    
+}
+
+.portfolio-video{
+    box-shadow: 0px 6px 13px 1px rgba(52,56,64,0.88);
+    
+}
+
+.portfolio-aside{
+    background: rgb(144,167,187);
+background: linear-gradient(162deg, rgba(144,167,187,1) 0%, rgba(213,221,228,1) 48%, rgba(144,167,187,1) 100%);
+    box-shadow: 0px 6px 13px 1px rgba(52,56,64,0.88);
+    margin: 4rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.portfolio-aside-titre{
+    color: #9c0707;
+    margin: 1rem;
+    
+}
+.portfolio-aside-movies {
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio-aside-block{
+    max-width: 60rem;
+    margin: 0.8rem;
+    padding-bottom: 1rem;
+}
+
+.portfolio-movie-description {
+    font-family: 'merge_light';
+    font-size: 1.5rem;
+    margin: 1rem;
 }
